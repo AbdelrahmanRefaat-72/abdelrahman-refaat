@@ -1,0 +1,907 @@
+<!doctype html>
+<html lang="ar" dir="rtl" data-theme="dark">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#111313" />
+    <meta name="description" content="عبدالرحمن رفعت السيد — مهندس برمجيات واختبار (Python Backend & QA Engineer)." />
+    <title>عبدالرحمن رفعت السيد — مطوّر برمجيات واختبار</title>
+    <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='18' fill='%23111313'/%3E%3Ctext x='50%25' y='56%25' dominant-baseline='middle' text-anchor='middle' font-family='Arial' font-weight='700' font-size='28' fill='%23d9fc59'%3EAR%3C/text%3E%3C/svg%3E" />
+    <link rel="stylesheet" href="styles.css?v=20261112-2" />
+    <script src="script.js?v=20261112-2" defer></script>
+  </head>
+  <body>
+    <a class="skip-link" href="#main" data-i18n="skip">تخطّي إلى المحتوى</a>
+    <div class="scroll-progress" id="scrollProgress" aria-hidden="true"></div>
+    <div class="grain" aria-hidden="true"></div>
+
+    <header class="site-header" id="siteHeader">
+      <a class="brand" href="#home" aria-label="Abdelrahman Refaat — Home">
+        <span class="brand-avatar-box"><img src="assets/profile.jpg" alt="Abdelrahman Refaat" class="brand-avatar" /></span>
+        <span class="brand-name" data-i18n="brand">عبدالرحمن رفعت</span>
+      </a>
+      <div class="header-current" aria-live="polite">
+        <span id="currentSectionLabel" data-i18n="currentPageKicker">الصفحة الحالية</span>
+        <strong id="currentPageTitle">الرئيسية</strong>
+      </div>
+
+      <div class="header-tools">
+        <button class="language-toggle" id="languageToggle" type="button" aria-label="Switch language">
+          <span class="language-dot" aria-hidden="true"></span>
+          <span id="languageLabel">EN</span>
+        </button>
+        <button class="theme-toggle" id="themeToggle" type="button" aria-label="Switch to light theme">
+          <span id="themeIcon" aria-hidden="true">☼</span>
+          <span id="themeLabel" data-i18n="themeLight">فاتح</span>
+        </button>
+        <button class="menu-toggle" id="menuToggle" type="button" aria-label="Open menu" aria-expanded="false" aria-controls="primaryNav">
+          <span></span><span></span><span></span>
+        </button>
+      </div>
+    </header>
+
+    <button class="nav-backdrop" id="navBackdrop" type="button" aria-label="Close navigation menu" data-i18n-aria="closeMenu" tabindex="-1"></button>
+    <nav class="primary-nav" id="primaryNav" aria-label="Main navigation" data-i18n-aria="navAria" aria-hidden="true">
+      <div class="drawer-heading">
+        <div><span data-i18n="drawerKicker">التنقّل</span><strong data-i18n="brand">عبدالرحمن رفعت</strong></div>
+        <button class="drawer-close" id="drawerClose" type="button" aria-label="Close menu" data-i18n-aria="closeMenu">×</button>
+      </div>
+      <div class="drawer-group-label" data-i18n="drawerMainGroup">الرئيسية والمسارات</div>
+      <a href="#home" data-i18n="navHome">الرئيسية</a>
+      <a href="#focus" data-i18n="navFocus">المسارات المتخصصة</a>
+      <a href="#backend" data-i18n="navBackend">Python &amp; Backend</a>
+      <a href="#qa" data-i18n="navQa">Quality Assurance &amp; Testing</a>
+      <a href="#automation" data-i18n="navAutomation">Automation &amp; Scripting</a>
+      <div class="drawer-group-label" data-i18n="drawerWorkGroup">الشغل والتعلّم</div>
+      <a href="#projects" data-i18n="navProjects">المشاريع</a>
+      <a href="#about" data-i18n="navAbout">عني والسيرة الذاتية</a>
+      <a href="#certificates" data-i18n="navCertificates">الشهادات والتدريب</a>
+      <div class="drawer-group-label" data-i18n="drawerOtherGroup">مجالات أخرى والهوايات</div>
+      <a href="#more" data-i18n="navMore">مجالات أخرى</a>
+      <a href="#gaming" data-i18n="navGaming">Refaat Gaming &amp; إبداع</a>
+      <a href="#contact" data-i18n="navContact">تواصل معي</a>
+      <div class="drawer-footer"><span>AR — 2026</span><span data-i18n="drawerFooter">اختر قسمًا لعرض تفاصيله</span></div>
+    </nav>
+
+    <main id="main">
+      <!-- HOME VIEW -->
+      <div class="home-view view-panel is-active" id="home">
+        <section class="hero section-shell" id="homeHero">
+          <div class="hero-grid" aria-hidden="true"></div>
+          <div class="hero-orbit hero-orbit--one" aria-hidden="true"></div>
+          <div class="hero-orbit hero-orbit--two" aria-hidden="true"></div>
+
+          <div class="hero-content">
+            <div class="eyebrow reveal">
+              <span class="eyebrow-line"></span>
+              <span data-i18n="heroEyebrow">هندسة إلكترونية · برمجة · جودة واختبار</span>
+              <span class="eyebrow-index">01 / 08</span>
+            </div>
+            <p class="hero-pretitle reveal" data-i18n="heroPretitle">أهلًا، أنا</p>
+            <h1 class="hero-title reveal">
+              <span class="hero-title-ar" data-i18n="heroName">عبدالرحمن<br />رفعت السيد</span>
+              <span class="hero-title-en" data-i18n="heroRole">Python Backend &amp; QA Engineer</span>
+            </h1>
+            <p class="hero-description reveal" data-i18n="heroDescription">
+              أدرس الهندسة الإلكترونية بمنوف (قسم الأمن السيبراني وتحليلات البيانات). أجمع بين بناء الـ Backend المتين بـ Python وفلسفة الـ QA في كشف الأخطاء واختبار قيم الحدود لضمان برمجيات موثوقة.
+            </p>
+            <div class="hero-actions reveal">
+              <a class="button button--primary" href="#projects">
+                <span data-i18n="heroPrimary">استعراض المشاريع</span><span class="button-arrow" aria-hidden="true">↗</span>
+              </a>
+              <a class="button button--quiet" href="#about" data-i18n="heroSecondary">عني والـ CV</a>
+              <a class="button button--accent" href="#qa">
+                <span data-i18n="heroQaBtn">مختبر اختبار الكود</span><span class="button-arrow" aria-hidden="true">↗</span>
+              </a>
+            </div>
+            <div class="hero-meta reveal">
+              <span class="availability"><i></i><span data-i18n="availability">منفتح على فرص تدريب وعمل</span></span>
+              <span class="meta-separator">/</span>
+              <span data-i18n="location">السنبلاوين، مصر</span>
+            </div>
+          </div>
+
+          <!-- ICONIC AR MONOGRAM STAGE PRESERVED -->
+          <div class="hero-art reveal" aria-label="AR monogram and code-inspired artwork">
+            <div class="art-caption art-caption--top"><span>BUILD / VERIFY / ITERATE</span><span>MENOUF ENG.</span></div>
+            <div class="monogram-stage">
+              <div class="monogram-ring monogram-ring--outer"></div>
+              <div class="monogram-ring monogram-ring--inner"></div>
+              <span class="orbit-node orbit-node--one"></span>
+              <span class="orbit-node orbit-node--two"></span>
+              <div class="hero-portrait-stage">
+                <img src="assets/profile.jpg" alt="Abdelrahman Refaat" class="hero-portrait-img" />
+                <div class="hero-portrait-glow"></div>
+              </div>
+              <div class="monogram-cross">+</div>
+            </div>
+            <div class="code-slip">
+              <span class="code-slip-label">problem.solve()</span>
+              <span class="code-slip-value"><i>→</i> build / test / improve</span>
+            </div>
+            <div class="art-caption art-caption--bottom"><span>PYTHON · C++ · FASTAPI</span><span>EST. 2022</span></div>
+            <div class="hero-vertical-note" data-i18n="heroVertical">البداية الصح: تفكيك المشكلة قبل كتابة أول سطر</div>
+          </div>
+
+          <a class="scroll-cue" href="#homeDashboard" aria-label="Scroll to dashboard"><span></span><span data-i18n="scrollCue">انزل واكتشف</span></a>
+        </section>
+
+        <!-- STATS BANNER -->
+        <section class="stats-banner section-shell">
+          <div class="stats-container">
+            <div class="stat-item">
+              <span class="stat-num">120<small>h</small></span>
+              <span class="stat-label" data-i18n="statNti">تدريب Fortinet NTI مكثف</span>
+            </div>
+            <div class="stat-item">
+              <span class="stat-num">95<small>%</small></span>
+              <span class="stat-label" data-i18n="statScore">درجة امتياز التخرج في NTI</span>
+            </div>
+            <div class="stat-item">
+              <span class="stat-num">10<small>+</small></span>
+              <span class="stat-label" data-i18n="statProjects">مشاريع برمجية وتطبيقية</span>
+            </div>
+            <div class="stat-item">
+              <span class="stat-num">11</span>
+              <span class="stat-label" data-i18n="statCerts">شهادة تقنية موثقة</span>
+            </div>
+          </div>
+        </section>
+
+        <!-- HOME QUICK CONTACT DOCK -->
+        <section class="home-contact-dock section-shell">
+          <div class="dock-container">
+            <div class="dock-status">
+              <span class="dock-beacon"></span>
+              <span class="dock-label" data-i18n="dockStatus">متاح للتواصل المباشر والفرص</span>
+            </div>
+            <div class="dock-links">
+              <a href="https://wa.me/201558686633" class="dock-pill" target="_blank" rel="noreferrer">
+                <svg class="social-svg social-svg--wa" viewBox="0 0 24 24" width="16" height="16" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+                <span class="dock-val">+20 155 868 6633</span>
+              </a>
+              <a href="mailto:abdelrahmanrefaat127@gmail.com" class="dock-pill">
+                <svg class="social-svg social-svg--mail" viewBox="0 0 24 24" width="16" height="16" fill="currentColor"><path d="M20 4H4c-1.1 0-1.99.9-1.99 2L2 18c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 4l-8 5-8-5V6l8 5 8-5v2z"/></svg>
+                <span class="dock-val">abdelrahmanrefaat127@gmail.com</span>
+              </a>
+              <a href="https://github.com/AbdelrahmanRefaat-72" class="dock-pill" target="_blank" rel="noreferrer">
+                <svg class="social-svg social-svg--gh" viewBox="0 0 24 24" width="16" height="16" fill="currentColor"><path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"/></svg>
+                <span class="dock-val">GitHub</span>
+              </a>
+              <a href="https://www.linkedin.com/in/abdelrahman-refaat-4b2001256/" class="dock-pill" target="_blank" rel="noreferrer">
+                <svg class="social-svg social-svg--in" viewBox="0 0 24 24" width="16" height="16" fill="currentColor"><path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z"/></svg>
+                <span class="dock-val">LinkedIn</span>
+              </a>
+              <a href="https://www.youtube.com/@Refaat-AR72" class="dock-pill" target="_blank" rel="noreferrer">
+                <svg class="social-svg social-svg--yt" viewBox="0 0 24 24" width="16" height="16" fill="currentColor"><path d="M23.498 6.186a3.016 3.016 0 0 0-2.122-2.136C19.505 3.545 12 3.545 12 3.545s-7.505 0-9.377.505A3.017 3.017 0 0 0 .502 6.186C0 8.07 0 12 0 12s0 3.93.502 5.814a3.016 3.016 0 0 0 2.122 2.136c1.871.505 9.376.505 9.376.505s7.505 0 9.377-.505a3.015 3.015 0 0 0 2.122-2.136C24 15.93 24 12 24 12s0-3.93-.502-5.814zM9.545 15.568V8.432L15.818 12l-6.273 3.568z"/></svg>
+                <span class="dock-val">Refaat Gaming</span>
+              </a>
+            </div>
+          </div>
+        </section>
+
+        <!-- HOME DASHBOARD -->
+        <section class="home-dashboard" id="homeDashboard" aria-labelledby="homeOverviewTitle">
+          <div class="home-dashboard-heading">
+            <div>
+              <p class="section-kicker"><span>00</span><span data-i18n="homeOverviewKicker">لوحة التحكم الرئيسية</span></p>
+              <h2 id="homeOverviewTitle" data-i18n="homeOverviewTitleText">مساراتي، خبراتي،<br /><em>وشغفي التقني.</em></h2>
+            </div>
+            <p data-i18n="homeOverviewIntro">خريطة شاملة لكل ما أقدمه. اضغط على أي قسم للدخول إلى شاشته المستقلة بتفاصيلها وتجاربها التفاعلية الكاملة.</p>
+          </div>
+
+          <div class="home-path-grid">
+            <a class="home-path-card home-path-card--backend" href="#backend">
+              <div class="home-card-glow"></div>
+              <span class="home-path-index">01 / BUILD</span>
+              <b>Python &amp; Backend</b>
+              <p data-i18n="homeBackendBrief">تطوير الـ APIs، قواعد البيانات، والأنظمة المكتوب كودها بأساس هندسي سليم.</p>
+              <span class="home-path-arrow" data-i18n="openTrack">فتح المسار ↗</span>
+            </a>
+            <a class="home-path-card home-path-card--qa" href="#qa">
+              <div class="home-card-glow"></div>
+              <span class="home-path-index">02 / VERIFY &amp; TEST</span>
+              <b>Quality Assurance &amp; Testing</b>
+              <p data-i18n="homeQaBrief">كشف الثغرات، اختبار الحدود، وكتابة سيناريوهات الفحص بـ Pytest وعقلية الـ Tester.</p>
+              <span class="home-path-arrow" data-i18n="testCode">اختبر الكود ↗</span>
+            </a>
+            <a class="home-path-card home-path-card--automation" href="#automation">
+              <div class="home-card-glow"></div>
+              <span class="home-path-index">03 / CONNECT</span>
+              <b>Automation &amp; Scripting</b>
+              <p data-i18n="homeAutomationBrief">سكريبتات Python وأدوات CLI لتقليل المهام المتكررة وحزم الملفات آلياً.</p>
+              <span class="home-path-arrow" data-i18n="openTrack">فتح المسار ↗</span>
+            </a>
+            <a class="home-path-card home-path-card--data" href="#more">
+              <div class="home-card-glow"></div>
+              <span class="home-path-index">04 / DATA</span>
+              <b data-i18n="dataTitle">تحليل البيانات</b>
+              <p data-i18n="homeDataBrief">استكشاف البيانات ومعالجتها عبر Pandas وMatplotlib ونماذج تعلم الآلة.</p>
+              <span class="home-path-arrow" data-i18n="details">تفاصيل ↗</span>
+            </a>
+            <a class="home-path-card home-path-card--security" href="#more">
+              <div class="home-card-glow"></div>
+              <span class="home-path-index">05 / SECURITY</span>
+              <b data-i18n="securityTitle">الأمن السيبراني والشبكات</b>
+              <p data-i18n="homeSecurityBrief">خلفية معتمدة من Fortinet وRed Hat ولينكس في إدارة وحماية الشبكات.</p>
+              <span class="home-path-arrow" data-i18n="details">تفاصيل ↗</span>
+            </a>
+            <a class="home-path-card home-path-card--gaming" href="#gaming">
+              <div class="home-card-glow"></div>
+              <span class="home-path-index">06 / CREATIVE</span>
+              <b data-i18n="homeGamingTitle">Refaat Gaming &amp; محتوى</b>
+              <p data-i18n="homeGamingBrief">الألعاب الاستراتيجية، صناعة المحتوى، المونتاج، والهوية البصرية للقناة.</p>
+              <span class="home-path-arrow" data-i18n="gamingZone">منطقة اللعب ↗</span>
+            </a>
+          </div>
+
+          <!-- INTERACTIVE TERMINAL SIMULATOR SECTION (NOW SPACIOUS & ELEGANT) -->
+          <div class="home-terminal-section reveal">
+            <div class="hero-terminal-box">
+              <div class="terminal-bar">
+                <div class="terminal-dots"><span></span><span></span><span></span></div>
+                <div class="terminal-title">ar-shell ~ cli</div>
+                <span class="terminal-live-badge">ONLINE</span>
+              </div>
+              <div class="terminal-body" id="heroTerminalOutput">
+                <div class="terminal-line"><span class="t-prompt">$</span> <span class="t-cmd">whoami</span></div>
+                <div class="terminal-res">Abdelrahman Refaat — Backend &amp; QA Explorer</div>
+                <div class="terminal-line"><span class="t-prompt">$</span> <span class="t-cmd">python -m pytest tests/</span></div>
+                <div class="terminal-res t-success">[PASS] 5 passed in 0.18s (Sanity check: OK)</div>
+                <div class="terminal-line"><span class="t-prompt">$</span> <span class="t-cmd">git status</span></div>
+                <div class="terminal-res">On branch main. Ready to build and verify systems.</div>
+              </div>
+              <div class="terminal-quick-actions">
+                <button type="button" class="t-action-btn" data-tcmd="whoami">whoami</button>
+                <button type="button" class="t-action-btn" data-tcmd="stack">stack</button>
+                <button type="button" class="t-action-btn" data-tcmd="run_test">run_test</button>
+                <button type="button" class="t-action-btn" data-tcmd="gaming">gaming</button>
+              </div>
+            </div>
+          </div>
+
+          <div class="home-feature-layout">
+            <section class="home-featured-work" aria-labelledby="homeProjectsTitle">
+              <div class="home-block-heading">
+                <div>
+                  <span class="home-block-kicker" data-i18n="homeProjectsKicker">أبرز الأعمال</span>
+                  <h3 id="homeProjectsTitle" data-i18n="homeProjectsTitle">مشاريع منتقاة</h3>
+                </div>
+                <a href="#projects" class="home-more-link"><span data-i18n="viewAllProjects">عرض كل المشاريع</span><span>↗</span></a>
+              </div>
+              <div class="home-project-preview" id="homeProjectPreview"></div>
+            </section>
+            <section class="home-certificate-snapshot" aria-labelledby="homeCertTitle">
+              <div class="home-block-heading">
+                <div>
+                  <span class="home-block-kicker" data-i18n="homeCertKicker">توثيق رسمي</span>
+                  <h3 id="homeCertTitle" data-i18n="homeCertTitle">شهادات وتدريبات</h3>
+                </div>
+                <a href="#certificates" class="home-more-link"><span data-i18n="viewAllCertificates">كل الشهادات</span><span>↗</span></a>
+              </div>
+              <div class="home-certificate-count">
+                <strong>11</strong><span data-i18n="homeCertCount">شهادة تخصصية مضافة</span>
+              </div>
+              <div class="home-certificate-preview" id="homeCertificatePreview"></div>
+            </section>
+          </div>
+        </section>
+      </div>
+
+      <!-- FOCUS HUB VIEW -->
+      <section class="focus-section section-shell view-panel" id="focus" data-section="focus">
+        <div class="section-heading reveal">
+          <div>
+            <p class="section-kicker"><span>01</span><span data-i18n="focusKicker">المسارات المتخصصة</span></p>
+            <h2 data-i18n="focusTitle">بين بناء الكود<br /><em>والتأكد من صموده.</em></h2>
+          </div>
+          <p class="section-intro" data-i18n="focusIntro">تركيزي ينصب على مسارين متكاملين: كتابة Backend متين بـ Python، واختباره وتتبّع حدوده وثغراته كـ QA Tester. هذه المسارات ليست نظرية، بل مطبقة بمشاريع عملية أشارك تفاصيلها هنا.</p>
+        </div>
+
+        <div class="focus-cards">
+          <article class="focus-card focus-card--backend reveal" data-topic="backend">
+            <div class="focus-card-top"><span class="focus-number">01 / BUILD</span><span class="focus-status"><i></i><span data-i18n="statusCore">التركيز البرمجي</span></span></div>
+            <div class="focus-visual focus-visual--backend" aria-hidden="true">
+              <div class="api-window"><div class="window-dots"><i></i><i></i><i></i></div><span class="api-method">POST</span><span class="api-path">/api/v1/auth</span><span class="api-response">200 <b>OK</b></span></div>
+              <div class="api-route api-route--one"></div><div class="api-route api-route--two"></div>
+              <span class="api-node api-node--one"></span><span class="api-node api-node--two"></span>
+            </div>
+            <h3 data-i18n="backendTitle">Python &amp; Backend Development</h3>
+            <p data-i18n="backendDescription">تصميم REST APIs عبر FastAPI، إدارة قواعد بيانات SQLite والتعامل مع ملفات البيانات، ربط خدمات الذكاء الاصطناعي وبناء لوحات التحكم بـ PyQt.</p>
+            <div class="tag-row"><span>Python</span><span>FastAPI</span><span>SQLite</span><span>C++</span></div>
+            <a class="button button--primary" href="#backend"><span data-i18n="seeTrack">دخول مسار الـ Backend والتجربة الحية</span><span>↗</span></a>
+          </article>
+
+          <article class="focus-card focus-card--qa reveal" data-topic="qa">
+            <div class="focus-card-top"><span class="focus-number">02 / VERIFY</span><span class="focus-status focus-status--highlight"><i></i><span data-i18n="statusQaFocus">شغف الجودة والاختبار</span></span></div>
+            <div class="focus-visual focus-visual--qa" aria-hidden="true">
+              <div class="qa-sheet"><span class="qa-line qa-line--long"></span><span class="qa-line"></span><span class="qa-line qa-line--mid"></span><span class="qa-check qa-check--one">✓</span><span class="qa-check qa-check--two">✓</span></div>
+              <div class="qa-scan"></div><span class="qa-target">TESTS</span>
+            </div>
+            <h3 data-i18n="qaTitle">Quality Assurance &amp; Testing</h3>
+            <p data-i18n="qaDescription">عقلية فاحصة تبحث عن أسباب الانهيار قبل وصول البرنامج للمستخدم. أطبق مفاهيم Boundary Value Analysis واختبارات الوحدات بـ Pytest وكتابة تقارير عيوب واضحة.</p>
+            <div class="tag-row"><span>Pytest</span><span>Manual Testing</span><span>Bug Tracking</span><span>API Testing</span></div>
+            <a class="button button--primary" href="#qa"><span data-i18n="seeQaTrack">شاهد مختبر الـ QA التفاعلي</span><span>↗</span></a>
+          </article>
+
+          <article class="focus-card focus-card--automation reveal" data-topic="automation">
+            <div class="focus-card-top"><span class="focus-number">03 / STREAMLINE</span><span class="focus-status focus-status--learn"><i></i><span data-i18n="statusExploring">أتمتة وحزم</span></span></div>
+            <div class="focus-visual focus-visual--automation" aria-hidden="true">
+              <div class="flow-track flow-track--a"></div><div class="flow-track flow-track--b"></div><div class="flow-track flow-track--c"></div>
+              <span class="flow-node flow-node--trigger">IN</span><span class="flow-node flow-node--process">ƒ</span><span class="flow-node flow-node--result">OUT</span>
+              <span class="flow-pulse flow-pulse--one"></span><span class="flow-pulse flow-pulse--two"></span>
+            </div>
+            <h3 data-i18n="automationTitle">Automation &amp; Scripting</h3>
+            <p data-i18n="automationDescription">أدوات مخصصة لأتمتة معالجة وضغط الصور (Pillow/CLI)، تجهيز النسخ الاحتياطية وتوليد التقارير التلقائية لتقليص العمل اليدوي.</p>
+            <div class="tag-row"><span>Python CLI</span><span>Pillow</span><span>Workflows</span></div>
+            <a class="button button--primary" href="#automation"><span data-i18n="seeAutomationTrack">استكشف أدوات الأتمتة</span><span>↗</span></a>
+          </article>
+        </div>
+      </section>
+
+      <!-- BACKEND DEDICATED SCREEN -->
+      <section class="track-page track-page--backend section-shell view-panel" id="backend" data-section="backend">
+        <div class="track-page-layout">
+          <div class="track-page-copy reveal">
+            <p class="section-kicker"><span>01 / CORE TRACK</span><span data-i18n="backendPageKicker">المسار البرمجي الأساسي</span></p>
+            <h1 data-i18n="backendPageTitle">Python &amp; Backend Engineering</h1>
+            <p class="track-page-lead" data-i18n="backendPageIntro">
+              أبني الـ Backend بعين مهندس: تنظيم دقيق للكود عبر وحدات مستقلة (Routers)، مصادقة محكمة ببروتوكول OAuth 2.0، حماية ضد الحقن والتمرير العشوائي للمدخلات، ودمج سلس لخدمات الذكاء الاصطناعي والإشعارات.
+            </p>
+            <div class="track-tags">
+              <span>Python 3.12</span><span>FastAPI</span><span>SQLite</span><span>RESTful APIs</span><span>Google OAuth2</span><span>C++</span>
+            </div>
+            <div class="track-actions">
+              <a class="button button--primary" href="#projects" data-filter-link="backend">
+                <span data-i18n="backendProjectsBtn">مشاريع الـ Backend الكاملة</span><span class="button-arrow">↗</span>
+              </a>
+              <a class="button button--quiet" href="#qa">
+                <span data-i18n="goToQa">انتقل لاختبار الكود (QA)</span><span class="button-arrow">↗</span>
+              </a>
+              <a class="button button--quiet" href="#focus">
+                <span data-i18n="backToTracks">كل المسارات</span>
+              </a>
+            </div>
+          </div>
+
+          <!-- INTERACTIVE API PLAYGROUND -->
+          <div class="api-console-widget reveal">
+            <div class="api-console-head">
+              <span class="console-label">LIVE API INTERACTIVE CONSOLE</span>
+              <span class="console-sub" data-i18n="apiConsoleSub">محاكي اختبار الـ Endpoints التفاعلي</span>
+            </div>
+            <div class="api-endpoints-nav">
+              <button type="button" class="api-btn is-active" data-endpoint="auth">POST /api/v1/auth/google</button>
+              <button type="button" class="api-btn" data-endpoint="scan">POST /api/v1/email/scan</button>
+              <button type="button" class="api-btn" data-endpoint="gold">GET /api/v1/gold-store/stats</button>
+            </div>
+            <div class="api-console-screen">
+              <div class="api-screen-top">
+                <span id="apiStatusBadge" class="status-badge status-200">HTTP 200 OK</span>
+                <span id="apiLatency" class="latency-text">18ms latency</span>
+              </div>
+              <pre class="api-code-output" id="apiConsoleOutput"></pre>
+            </div>
+            <div class="api-console-foot">
+              <span>FastAPI Backend Demo Architecture · Abdelrahman Refaat</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="backend-deep-grid">
+          <div class="deep-card reveal">
+            <div class="deep-num">01</div>
+            <h3 data-i18n="bArch1Title">مصادقة وحماية آمنة (OAuth2 &amp; Session Tokens)</h3>
+            <p data-i18n="bArch1Desc">في مشروعي Smart Email Guardian، قمت بتطبيق دورة Google OAuth2 كاملة بحماية State Cookie ضد هجمات CSRF، وقراءة البريد بصلاحية Read-Only مشددة لضمان أمان خصوصية المستخدم.</p>
+          </div>
+          <div class="deep-card reveal">
+            <div class="deep-num">02</div>
+            <h3 data-i18n="bArch2Title">معالجة البيانات والتقارير (Pandas &amp; PyQt)</h3>
+            <p data-i18n="bArch2Desc">في نظام إدارة محل الذهب، تم بناء معمارية كاملة لحساب الأوزان والأسعار وحركة البيع اليومية مع توليد فواتير تلقائية ونسخ احتياطي مجدول وحماية بملفات أمان مشفرة.</p>
+          </div>
+          <div class="deep-card reveal">
+            <div class="deep-num">03</div>
+            <h3 data-i18n="bArch3Title">حل المشكلات بكفاءة C++ و خوارزميات صلبة</h3>
+            <p data-i18n="bArch3Desc">خلفيتي في C++ علمتني التحكم في الذاكرة والتعامل الصارم مع أنواع البيانات والتحقق من المدخلات (Input Validation) لمنع حدوث Buffer Overflows أو أخطاء القسمة على صفر.</p>
+          </div>
+        </div>
+      </section>
+
+      <!-- QA DEDICATED SCREEN -->
+      <section class="track-page track-page--qa section-shell view-panel" id="qa" data-section="qa">
+        <div class="track-page-layout">
+          <div class="track-page-copy reveal">
+            <p class="section-kicker"><span>02 / QUALITY ASSURANCE</span><span data-i18n="qaPageKicker">مسار اختبار البرمجيات والجودة</span></p>
+            <h1 data-i18n="qaPageTitle">Software Quality Assurance &amp; Testing</h1>
+            <p class="track-page-lead" data-i18n="qaPageIntro">
+              الكود لا يعتبر منجزاً إلا إذا صمد أمام الفحص العنيف. عقلية الـ QA بالنسبة لي هي التفكير في: ماذا يحدث لو أدخل المستخدم قيمة سالبة؟ لو انقطع الاتصال في منتصف العملية؟ لو أُرسلت حمولة XSS مشبوهة؟ هنا أتحول من دور الباني إلى دور الفاحص الدقيق.
+            </p>
+            <div class="track-tags">
+              <span>Manual Testing</span><span>Pytest</span><span>Boundary Value Analysis</span><span>Equivalence Partitioning</span><span>Defect Reporting</span><span>API Testing</span>
+            </div>
+            <div class="track-actions">
+              <button class="button button--primary" id="btnRunTests" type="button">
+                <span data-i18n="btnRunTestsLabel">تشغيل حزمة الاختبارات (Run Pytest)</span>
+              </button>
+              <a class="button button--quiet" href="#projects" data-filter-link="qa">
+                <span data-i18n="qaRelatedProjects">المشاريع المفحوصة</span><span class="button-arrow">↗</span>
+              </a>
+            </div>
+          </div>
+
+          <!-- TEST RUNNER BENCH -->
+          <div class="test-runner-widget reveal">
+            <div class="test-runner-header">
+              <div>
+                <span class="runner-kicker">AUTOMATED TEST BENCH</span>
+                <strong class="runner-title">Pytest / Test Suite Simulator</strong>
+              </div>
+              <span class="runner-tag" id="testSuiteStatus" data-i18n="testStatusReady">READY TO EXECUTE</span>
+            </div>
+
+            <div class="test-cases-list" id="testCasesList">
+              <div class="test-case-row" data-test="1">
+                <span class="tc-icon">○</span>
+                <span class="tc-name">test_email_xss_and_injection_sanitization</span>
+                <span class="tc-badge" data-i18n="tcPending">Pending</span>
+                <span class="tc-time">--</span>
+              </div>
+              <div class="test-case-row" data-test="2">
+                <span class="tc-icon">○</span>
+                <span class="tc-name">test_gold_store_negative_quantity_rejection</span>
+                <span class="tc-badge" data-i18n="tcPending">Pending</span>
+                <span class="tc-time">--</span>
+              </div>
+              <div class="test-case-row" data-test="3">
+                <span class="tc-icon">○</span>
+                <span class="tc-name">test_atm_insufficient_balance_handling</span>
+                <span class="tc-badge" data-i18n="tcPending">Pending</span>
+                <span class="tc-time">--</span>
+              </div>
+              <div class="test-case-row" data-test="4">
+                <span class="tc-icon">○</span>
+                <span class="tc-name">test_auth_expired_state_token_status_401</span>
+                <span class="tc-badge" data-i18n="tcPending">Pending</span>
+                <span class="tc-time">--</span>
+              </div>
+              <div class="test-case-row" data-test="5">
+                <span class="tc-icon">○</span>
+                <span class="tc-name">test_weekly_analyzer_division_by_zero_prevention</span>
+                <span class="tc-badge" data-i18n="tcPending">Pending</span>
+                <span class="tc-time">--</span>
+              </div>
+            </div>
+
+            <div class="test-runner-console">
+              <div class="console-summary-bar" id="testSummaryBar" data-i18n="testSummaryInitial">
+                اضغط على زر التشغيل أعلاه لتشغيل المحاكي ومشاهدة نتائج التحقق الآن.
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- BUG HUNTER CHALLENGE -->
+        <div class="bug-challenge-banner reveal">
+          <div class="bug-challenge-info">
+            <span class="bug-badge-tag" data-i18n="bugChallengeTag">[//] تحدي الفحص والاختبار</span>
+            <h3 data-i18n="bugChallengeTitle">تحدي صائد الثغرات: هل تستطيع كشف العيب؟</h3>
+            <p data-i18n="bugChallengeDesc">الكود التالي به خطأ حدودي شائع (Boundary / Off-by-one Error). اضغط على السطر المصاب لاكتشاف الثغرة وتأكيد حسك التفتيشي!</p>
+          </div>
+
+          <div class="bug-code-box" id="bugCodeBox">
+            <div class="code-line" data-line="1"><span class="line-no">1</span><code>def validate_discount(cart_total, discount_code):</code></div>
+            <div class="code-line" data-line="2"><span class="line-no">2</span><code>    # Valid cart total must be greater than zero</code></div>
+            <div class="code-line" data-line="3"><span class="line-no">3</span><code>    if cart_total &lt;= 0: return False</code></div>
+            <div class="code-line is-bug-target" data-line="4"><span class="line-no">4</span><code>    if discount_code == "VIP100" and cart_total &gt; 100:  # boundary defect</code></div>
+            <div class="code-line" data-line="5"><span class="line-no">5</span><code>        return apply_discount(cart_total, percent=15)</code></div>
+            <div class="code-line" data-line="6"><span class="line-no">6</span><code>    return cart_total</code></div>
+          </div>
+
+          <div class="bug-reward-card" id="bugRewardCard" hidden>
+            <span class="reward-icon">[DEFECT FOUND]</span>
+            <div>
+              <strong data-i18n="bugRewardTitle">تم كشف العيب بنجاح (Off-By-One Boundary Bug)</strong>
+              <p data-i18n="bugRewardDesc">عندما تكون السلة بقيمة 100 بالظبط، سيفشل الشرط ويُحرم العميل من الخصم المستحق. هذا هو جوهر الـ Boundary Value Testing!</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- QA METHODOLOGY CARDS (ZERO EMOJIS) -->
+        <div class="qa-methods-grid">
+          <div class="method-card reveal">
+            <span class="method-icon">[BVA]</span>
+            <h4 data-i18n="qaM1Title">تحليل قيم الحدود (Boundary Value Analysis)</h4>
+            <p data-i18n="qaM1Desc">التركيز على نقاط الانهيار الكلاسيكية: 0، القيمة العظمى، ما دونها وما فوقها، والقيم السالبة وغير المتوقعة.</p>
+          </div>
+          <div class="method-card reveal">
+            <span class="method-icon">[EP]</span>
+            <h4 data-i18n="qaM2Title">تقسيم التكافؤ (Equivalence Partitioning)</h4>
+            <p data-i18n="qaM2Desc">تصنيف المدخلات إلى فئات صالحة وغير صالحة لتغطية أعلى نسبة اختبار بأقل عدد من الحالات دون تكرار عشوائي.</p>
+          </div>
+          <div class="method-card reveal">
+            <span class="method-icon">[DEFECT]</span>
+            <h4 data-i18n="qaM3Title">تقارير عيوب واضحة (Defect Lifecycle)</h4>
+            <p data-i18n="qaM3Desc">كتابة تقرير Bug مهني يحتوي على: خطوات إعادة الإنتاج، النتيجة المتوقعة، النتيجة الفعلية، وسجلات الأخطاء للوصول للحل فوراً.</p>
+          </div>
+          <div class="method-card reveal">
+            <span class="method-icon">[PYTEST]</span>
+            <h4 data-i18n="qaM4Title">أتمتة الفحص (Pytest &amp; Postman)</h4>
+            <p data-i18n="qaM4Desc">كتابة اختبارات آلية للـ Endpoints والتحقق من صحة كود الاستجابة (Status Codes)، الـ Headers، وصحة هيكل JSON الراجع.</p>
+          </div>
+        </div>
+      </section>
+
+      <!-- AUTOMATION DEDICATED SCREEN -->
+      <section class="track-page track-page--automation section-shell view-panel" id="automation" data-section="automation">
+        <div class="track-page-layout">
+          <div class="track-page-copy reveal">
+            <p class="section-kicker"><span>03 / AUTOMATION</span><span data-i18n="automationPageKicker">أدوات وسكريبتات الأتمتة</span></p>
+            <h1 data-i18n="automationPageTitle">Automation &amp; Scripting</h1>
+            <p class="track-page-lead" data-i18n="automationPageIntro">
+              أي عملية متكررة تستهلك أكثر من بضع دقائق يجب أن تُعهد إلى سكريبت. أستخدم Python لبناء أدوات سريعة لضغط الوسائط وحزم الأرشيف والتعامل التلقائي مع الملفات والجداول.
+            </p>
+            <div class="track-tags">
+              <span>Python CLI</span><span>Pillow Image Compression</span><span>ZIP Automation</span><span>File Processing</span>
+            </div>
+            <div class="track-actions">
+              <a class="button button--primary" href="assets/source/compress.py" download="compress.py">
+                <span data-i18n="downloadCompress">تحميل سكريبت MediaPress (Python)</span><span class="button-arrow">↓</span>
+              </a>
+              <a class="button button--primary" href="#projects" data-filter-link="automation">
+                <span data-i18n="automationProjectsBtn">مشاريع الأتمتة</span><span class="button-arrow">↗</span>
+              </a>
+              <a class="button button--quiet" href="#focus">
+                <span data-i18n="backToTracks">كل المسارات</span>
+              </a>
+            </div>
+          </div>
+
+          <div class="automation-pipeline-widget reveal">
+            <div class="pipeline-header">
+              <span>AUTOMATION PIPELINE VISUALIZER</span>
+              <span class="pipeline-tag">MediaPress Engine</span>
+            </div>
+            <div class="pipeline-flow">
+              <div class="pipeline-step">
+                <span class="step-badge">INPUT</span>
+                <strong>Heavy Raw Assets</strong>
+                <small>PNG / JPG / Folders</small>
+              </div>
+              <div class="pipeline-arrow">➔</div>
+              <div class="pipeline-step is-active">
+                <span class="step-badge">PROCESS</span>
+                <strong>Pillow + ZIP Stream</strong>
+                <small>Resize / Optimize / Pack</small>
+              </div>
+              <div class="pipeline-arrow">➔</div>
+              <div class="pipeline-step">
+                <span class="step-badge">OUTPUT</span>
+                <strong>Optimized Archive</strong>
+                <small>~65% Space Saved</small>
+              </div>
+            </div>
+            <div class="pipeline-cli-preview">
+              <div class="cli-top"><span>$ python compress.py --dir ./assets --quality 80</span></div>
+              <div class="cli-out">
+                <span>[INFO] 18 images optimized.</span>
+                <span>[INFO] Original size: 42.4 MB -> New size: 14.8 MB</span>
+                <span class="t-success">[SUCCESS] Saved 27.6 MB (65.09% reduction) in 1.4s.</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- PROJECTS VIEW (CURATED SUBSTANTIVE PROJECTS) -->
+      <section class="projects-section section-shell view-panel" id="projects" data-section="projects">
+        <div class="section-heading section-heading--light reveal">
+          <div>
+            <p class="section-kicker"><span>04 / PORTFOLIO</span><span data-i18n="projectsKicker">مختارات من الشغل</span></p>
+            <h2 data-i18n="projectsTitle">أفكار حقيقية بدأت<br /><em>بمشكلة وتطورت لكود.</em></h2>
+          </div>
+          <p class="section-intro" data-i18n="projectsIntro">مجموعة من المشاريع التطبيقية في الـ Backend والأتمتة و C++ والويب والتحليل. كل مشروع يوضح الفكرة، التقنيات، ورابط الكود على GitHub.</p>
+        </div>
+
+        <div class="project-toolbar reveal">
+          <div class="filter-label" data-i18n="filterLabel">صنّف المشاريع</div>
+          <div class="project-filters" role="group" aria-label="Filter projects">
+            <button class="filter-button is-active" type="button" data-filter="all" data-i18n="filterAll">الكل</button>
+            <button class="filter-button" type="button" data-filter="backend" data-i18n="filterBackend">Backend</button>
+            <button class="filter-button" type="button" data-filter="qa" data-i18n="filterQa">QA &amp; Testing</button>
+            <button class="filter-button" type="button" data-filter="automation" data-i18n="filterAutomation">Automation</button>
+            <button class="filter-button" type="button" data-filter="cpp" data-i18n="filterCpp">C++</button>
+            <button class="filter-button" type="button" data-filter="data" data-i18n="filterData">Data</button>
+            <button class="filter-button" type="button" data-filter="web" data-i18n="filterWeb">Web</button>
+            <button class="filter-button" type="button" data-filter="security" data-i18n="filterSecurity">Security</button>
+          </div>
+          <span class="project-count" id="projectCount">10</span>
+        </div>
+
+        <div class="project-grid" id="projectGrid" aria-live="polite"></div>
+        <p class="project-note reveal" data-i18n="projectNote">جميع مشاريعي تم بناؤها وتجربتها بهدف التعلم العميق والتطبيق العملي الواقعي.</p>
+      </section>
+
+      <!-- ABOUT & RESUME VIEW -->
+      <section class="about-section section-shell view-panel" id="about" data-section="about">
+        <div class="about-stamp reveal" aria-hidden="true"><span>CURIOUS<br />ENGINEER</span><b>AR</b></div>
+        <div class="about-layout">
+          <div class="about-copy reveal">
+            <p class="section-kicker"><span>05 / BIO</span><span data-i18n="aboutKicker">الشخص وراء الكود</span></p>
+            <h2 data-i18n="aboutTitle">بحب أفهم<br /><em>ليه وكيف الحاجة بتشتغل.</em></h2>
+            <p class="about-lead" data-i18n="aboutLead">
+              أنا عبدالرحمن رفعت السيد، طالب في السنة النهائية بكلية الهندسة الإلكترونية بمنوف، قسم الأمن السيبراني وتحليلات البيانات. البرمجة بالنسبة لي ليست مجرد كتابة سطور، بل هي أسلوب تفكير هندسي يبدأ بفهم المشكلة بعمق، وتنتهي ببرنامج متين ومختبر بدقة.
+            </p>
+            <p class="about-body" data-i18n="aboutBody">
+              أجد متعتي الحقيقية في نقطة التقاء التطوير (Backend) باكتشاف الخلل (QA). هذا المزيج يجعلني أكتب كوداً يسهل اختباره وصيانته، وأبحث دائماً عن حالات الحافة (Edge Cases) لضمان موثوقية الأنظمة.
+            </p>
+            <div class="about-values">
+              <span data-i18n="valueOne">تفكير تحليلي ومنهجي</span>
+              <span data-i18n="valueTwo">شغف التجربة وكشف الأخطاء</span>
+              <span data-i18n="valueThree">دقة هندسية في التفاصيل</span>
+            </div>
+
+            <div class="cv-download-card">
+              <div class="cv-card-text">
+                <strong data-i18n="cvCardTitle">السيرة الذاتية الرسمية (ATS Resume)</strong>
+                <p data-i18n="cvCardDesc">جاهزة للمراجعة، مصممة بصيغة متوافقة مع أنظمة الـ ATS وتلخص كل المشروعات والشهادات.</p>
+              </div>
+              <a href="assets/Abdelrahman_Refaat_CV.html" target="_blank" class="button button--primary">
+                <span data-i18n="viewCvBtn">عرض وتحميل السيرة الذاتية (CV)</span><span class="button-arrow">↗</span>
+              </a>
+            </div>
+          </div>
+
+          <div class="about-side reveal">
+            <div class="about-profile-card">
+              <div class="profile-photo-wrap">
+                <img src="assets/profile.jpg" alt="Abdelrahman Refaat" class="profile-photo" />
+              </div>
+              <div class="profile-details">
+                <span class="profile-tag-pill">AVAILABLE FOR ROLES</span>
+                <h3 class="profile-name" data-i18n="brand">عبدالرحمن رفعت</h3>
+                <p class="profile-role-text" data-i18n="profileRole">مهندس برمجيات واختبار</p>
+                <div class="profile-caption-meta">
+                  <span class="dock-val" data-i18n="profileStatus">طالب هندسة إلكترونية بمنوف · 2026</span>
+                </div>
+              </div>
+            </div>
+
+            <div class="education-card">
+              <div class="education-top"><span data-i18n="educationLabel">التعليم الأكاديمي</span><span class="education-mark">01</span></div>
+              <h3 data-i18n="schoolName">كلية الهندسة الإلكترونية بمنوف</h3>
+              <p data-i18n="department">قسم الأمن السيبراني وتحليلات البيانات</p>
+              <div class="education-foot"><span>2022 — <span data-i18n="present">حتى الآن</span></span><span data-i18n="finalYear">السنة النهائية (مشروع التخرج)</span></div>
+            </div>
+            
+            <div class="education-card training-card">
+              <div class="education-top"><span data-i18n="trainingLabel">التدريب المهني المكثف</span><span class="education-mark">02</span></div>
+              <h3 data-i18n="trainingSchool">المعهد القومي للاتصالات (NTI)</h3>
+              <p data-i18n="trainingDesc">Fortinet Cybersecurity Track (120 ساعة - نتيجة 95% امتياز)</p>
+              <div class="education-foot"><span data-i18n="trainingDate">يونيو — سبتمبر 2026</span><span data-i18n="trainingVerified">معتمد رسميًا</span></div>
+            </div>
+
+            <div class="about-note-card">
+              <span class="note-mark">“</span>
+              <p data-i18n="aboutQuote">افهم المشكلة أولاً. فككها لعناصرها البسيطة. ابنِ الحل، ثم اختبر حدوده بكل طريقة ممكنة.</p>
+              <span class="note-sign">— ABDELRAHMAN REFAAT</span>
+            </div>
+            <div class="about-interests">
+              <span class="interests-label" data-i18n="outsideCode">خارج نطاق الكود</span>
+              <span data-i18n="creativeInterests">صناعة المحتوى · مونتاج الفيديوهات · تصميم الجرافيك · الألعاب الاستراتيجية</span>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- CERTIFICATES VIEW -->
+      <section class="certificate-section section-shell view-panel" id="certificates" data-section="certificates">
+        <div class="section-heading reveal">
+          <div>
+            <p class="section-kicker"><span>06 / CREDENTIALS</span><span data-i18n="certKicker">تعلم موثق وشهادات</span></p>
+            <h2 data-i18n="certTitle">كل شهادة هي خطوة<br /><em>في بناء الأساس الهندسي.</em></h2>
+          </div>
+          <p class="section-intro" data-i18n="certIntro">شهادات وتدريبات معتمدة في الأمن السيبراني، إدارة أنظمة Red Hat Linux، أساسيات الشبكات، البرمجة، ودورة حياة البرمجيات الآمنة (SSDLC). اضغط على أي شهادة لفتح ملف الـ PDF الأصلي.</p>
+        </div>
+
+        <div class="certificate-summary reveal">
+          <div><span class="summary-number">120</span><span data-i18n="hoursSummary">ساعة تدريب Fortinet مكثف</span></div>
+          <div><span class="summary-number">95<span class="summary-percent">%</span></span><span data-i18n="scoreSummary">نتيجة الامتياز في NTI</span></div>
+          <div><span class="summary-number">11</span><span data-i18n="certCountSummary">شهادة معتمدة موثقة</span></div>
+        </div>
+
+        <div class="cert-gallery-header reveal">
+          <span class="cert-gallery-label" data-i18n="certGalleryLabel">المعرض البصري للشهادات المعتمدة</span>
+          <div class="cert-gallery-filters" id="certFilters">
+            <button class="cert-filter-btn is-active" type="button" data-cert-filter="all" data-i18n="certFilterAll">الكل (11)</button>
+            <button class="cert-filter-btn" type="button" data-cert-filter="security" data-i18n="certFilterSecurity">أمن سيبراني (5)</button>
+            <button class="cert-filter-btn" type="button" data-cert-filter="linux" data-i18n="certFilterLinux">أنظمة لينكس (1)</button>
+            <button class="cert-filter-btn" type="button" data-cert-filter="networks" data-i18n="certFilterNetworks">شبكات وسحابة (4)</button>
+            <button class="cert-filter-btn" type="button" data-cert-filter="programming" data-i18n="certFilterProgramming">برمجة (1)</button>
+          </div>
+        </div>
+
+        <div class="cert-gallery-grid" id="certVisualGrid"></div>
+      </section>
+
+      <!-- MORE FIELDS VIEW -->
+      <section class="extra-section section-shell view-panel" id="more" data-section="more">
+        <div class="extra-heading reveal">
+          <p class="section-kicker"><span>07 / EXPLORATION</span><span data-i18n="moreKicker">مساحات أخرى أتقنها وأستكشفها</span></p>
+          <h2 data-i18n="moreTitle">تنوع معرفي يخدم<br /><em>رؤيتي البرمجية الشاملة.</em></h2>
+          <p data-i18n="moreIntro">فهم تحليل البيانات والشبكات ولينكس وتطوير الويب يمنحني ميزة فهم المنظومة التقنية ككل وكيف تتكامل معاً.</p>
+        </div>
+        <div class="interest-grid">
+          <article class="interest-card interest-card--data reveal" data-field="data">
+            <span class="interest-index">A / DATA ANALYSIS</span>
+            <div class="interest-graphic interest-graphic--data" aria-hidden="true"><i></i><i></i><i></i><i></i><i></i></div>
+            <h3 data-i18n="dataTitle">تحليل البيانات (Data Analytics)</h3>
+            <p data-i18n="dataDescription">تنظيف واستكشاف مجموعات البيانات واستخلاص الرؤى عبر Pandas وNumPy وMatplotlib ومشاريع تعلم الآلة (MLP).</p>
+            <span class="interest-foot">PANDAS · SCIKIT-LEARN · JUPYTER</span>
+            <span class="interest-card-hint" data-i18n="fieldHint">انقر للتفاصيل الكاملة ↗</span>
+          </article>
+          <article class="interest-card interest-card--security reveal" data-field="security">
+            <span class="interest-index">B / CYBERSECURITY</span>
+            <div class="interest-graphic interest-graphic--security" aria-hidden="true"><span>0</span><span>1</span><span>0</span><span>↗</span></div>
+            <h3 data-i18n="securityTitle">الأمن السيبراني والشبكات</h3>
+            <p data-i18n="securityDescription">تكوين السياسات الأمنية، أنظمة لينكس Red Hat، إدارة الصلاحيات، وتحليل حركة البيانات وفهم متجهات الهجوم الشائعة.</p>
+            <span class="interest-foot">FORTINET · RED HAT · LINUX · TCP/IP</span>
+            <span class="interest-card-hint" data-i18n="fieldHint">انقر للتفاصيل الكاملة ↗</span>
+          </article>
+          <article class="interest-card interest-card--web reveal" data-field="web">
+            <span class="interest-index">C / WEB DEVELOPMENT</span>
+            <div class="interest-graphic interest-graphic--web" aria-hidden="true"><div class="browser-mini"><i></i><i></i><i></i><b></b></div></div>
+            <h3 data-i18n="webTitle">تطوير الويب وشغل العملاء</h3>
+            <p data-i18n="webDescription">بناء واجهات ويب تفاعلية متجاوبة لعملاء متنوعين (مطاعم، أعمال، سياحة، رعاية صحية) باستخدام HTML, CSS, JS, وReact.</p>
+            <span class="interest-foot">HTML5 · CSS3 · JAVASCRIPT · REACT</span>
+            <span class="interest-card-hint" data-i18n="fieldHint">انقر للتفاصيل الكاملة ↗</span>
+          </article>
+          <article class="interest-card interest-card--creative reveal" data-field="creative">
+            <span class="interest-index">D / CREATIVE &amp; MEDIA</span>
+            <div class="interest-graphic interest-graphic--creative" aria-hidden="true"><span>✳</span><span>◌</span><span>▧</span></div>
+            <h3 data-i18n="creativeTitle">التصميم والمونتاج</h3>
+            <p data-i18n="creativeDescription">خبرة في برنامج فوتوشوب وتصميم الهويات البصرية، ومونتاج الفيديو لليوتيوب، وهو ما يثري حسّي في الـ UI/UX والتفاصيل البصرية.</p>
+            <span class="interest-foot">PHOTOSHOP · VIDEO EDITING · VISUAL DESIGN</span>
+            <span class="interest-card-hint" data-i18n="fieldHint">انقر للتفاصيل الكاملة ↗</span>
+          </article>
+        </div>
+      </section>
+
+      <!-- GAMING & CREATIVE VIEW -->
+      <section class="gaming-section section-shell view-panel" id="gaming" data-section="gaming">
+        <div class="gaming-backdrop" aria-hidden="true"></div>
+        <div class="gaming-topline reveal"><span>08 / PLAY &amp; STRATEGY</span><span>REFAAT GAMING ZONE</span></div>
+        <div class="gaming-layout">
+          <div class="gaming-copy reveal">
+            <p class="gaming-kicker"><span class="gaming-bolt">ϟ</span><span data-i18n="gamingKicker">منطقة اللعب والتحليل الاستراتيجي</span></p>
+            <h2 data-i18n="gamingTitle">استراتيجية.<br /><em>صبر. وقرار حاسم.</em></h2>
+            <p data-i18n="gamingDescription">
+              الألعاب الاستراتيجية ليست مجرد تسلية، بل هي تدريب ذهني يومي على إدارة الموارد المحدودة، التنبؤ بحركات الخصم، والتصرف تحت الضغط—وهي نفس المهارات التي أحتاجها في تتبّع أخطاء البرمجيات وتحليل الأنظمة المعقدة.
+            </p>
+            <div class="game-tags" aria-label="Games played">
+              <span class="tag-highlight">Rise of Kingdoms</span>
+              <span class="tag-highlight">Stronghold Crusader</span>
+              <span>Sea of Thieves</span>
+              <span>PUBG</span>
+              <span>Clash of Clans</span>
+              <span>PES / FIFA</span>
+            </div>
+            <div class="gaming-socials">
+              <a class="gaming-social gaming-social--youtube" href="https://www.youtube.com/@Refaat-AR72" target="_blank" rel="noreferrer">
+                <span class="social-play"><svg class="social-svg social-svg--yt" viewBox="0 0 24 24" width="16" height="16" fill="currentColor"><path d="M23.498 6.186a3.016 3.016 0 0 0-2.122-2.136C19.505 3.545 12 3.545 12 3.545s-7.505 0-9.377.505A3.017 3.017 0 0 0 .502 6.186C0 8.07 0 12 0 12s0 3.93.502 5.814a3.016 3.016 0 0 0 2.122 2.136c1.871.505 9.376.505 9.376.505s7.505 0 9.377-.505a3.015 3.015 0 0 0 2.122-2.136C24 15.93 24 12 24 12s0-3.93-.502-5.814zM9.545 15.568V8.432L15.818 12l-6.273 3.568z"/></svg></span>
+                <span><b>YouTube</b><small>@Refaat-AR72</small></span>
+                <span class="social-arrow">↗</span>
+              </a>
+              <a class="gaming-social gaming-social--tiktok" href="https://www.tiktok.com/@refaat.gaming72" target="_blank" rel="noreferrer">
+                <span class="social-tiktok"><svg class="social-svg social-svg--tt" viewBox="0 0 24 24" width="16" height="16" fill="currentColor"><path d="M12.525.02c1.31-.02 2.61-.01 3.91-.02.08 1.53.63 3.09 1.75 4.17 1.12 1.11 2.7 1.62 4.24 1.79v4.03c-1.44-.05-2.89-.35-4.2-.97-.57-.26-1.1-.59-1.62-.93-.01 2.92.01 5.84-.02 8.75-.08 1.4-.54 2.79-1.35 3.94-1.31 1.92-3.58 3.17-5.91 3.21-1.43.08-2.86-.31-4.08-1.03-2.02-1.19-3.44-3.37-3.65-5.71-.02-.5-.03-1-.01-1.49.18-1.9 1.12-3.72 2.58-4.96 1.66-1.44 3.98-2.13 6.15-1.72.02 1.48-.04 2.96-.04 4.44-.99-.32-2.15-.23-3.02.37-.63.41-1.11 1.04-1.27 1.76-.23.84-.05 1.79.46 2.47.6.82 1.58 1.25 2.58 1.24.96-.01 1.9-.45 2.48-1.22.42-.56.63-1.26.63-1.97.04-4.57.01-9.15.02-13.72z"/></svg></span>
+                <span><b>TikTok</b><small>@refaat.gaming72</small></span>
+                <span class="social-arrow">↗</span>
+              </a>
+            </div>
+          </div>
+          <div class="gaming-showcase reveal">
+            <div class="gaming-banner-frame">
+              <img src="assets/gaming/refaat-gaming-banner.jpg" alt="Refaat Gaming channel banner" loading="lazy" decoding="async" />
+            </div>
+            <div class="gaming-brand-card">
+              <img class="gaming-logo" src="assets/gaming/refaat-gaming-logo.jpg" alt="Refaat Gaming logo" loading="lazy" decoding="async" />
+              <div>
+                <span class="brand-card-label" data-i18n="gamingIdentity">الهوية البصرية للقناة</span>
+                <strong>REFAAT GAMING</strong>
+                <span class="brand-card-line">STRATEGY / CONTENT / EDITING</span>
+              </div>
+            </div>
+            <figure class="offline-card">
+              <img src="assets/gaming/refaat-gaming-offline-screen.png" alt="Refaat Gaming offline stream screen design" loading="lazy" decoding="async" />
+              <figcaption data-i18n="offlineCaption">تصميم شاشة البث (Offline Screen) — تصميم شخصي</figcaption>
+            </figure>
+            <div class="gaming-orbit gaming-orbit--a"></div><div class="gaming-orbit gaming-orbit--b"></div>
+          </div>
+        </div>
+        <div class="gaming-bottomline reveal"><span data-i18n="gamingFoot">في الكود كما في الاستراتيجية: الخطة الذكية والصبر هما أساس كل فوز.</span><span>GG / 2026</span></div>
+      </section>
+
+      <!-- CONTACT VIEW -->
+      <section class="contact-section section-shell view-panel" id="contact" data-section="contact">
+        <div class="contact-layout">
+          <div class="contact-copy reveal">
+            <p class="section-kicker"><span>09 / GET IN TOUCH</span><span data-i18n="contactKicker">جاهز لبدء محادثة؟</span></p>
+            <h2 data-i18n="contactTitle">عندك فرصة تدريب أو مشروع؟<br /><em>خلّينا نتواصل.</em></h2>
+            <p data-i18n="contactDescription">سواء كنت تبحث عن مطور Python Backend شغوف، أو QA Tester بعين فاحصة تبحث عن الأخطاء وتضمن جودة البرنامج، يسعدني دائماً التواصل والتعاون.</p>
+          </div>
+          <div class="contact-card reveal">
+            <a href="mailto:abdelrahmanrefaat127@gmail.com" class="contact-row">
+              <span class="contact-icon contact-icon--mail"><svg class="social-svg social-svg--mail" viewBox="0 0 24 24" width="18" height="18" fill="currentColor"><path d="M20 4H4c-1.1 0-1.99.9-1.99 2L2 18c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 4l-8 5-8-5V6l8 5 8-5v2z"/></svg></span>
+              <span><small data-i18n="emailLabel">البريد الإلكتروني المباشر</small><b>abdelrahmanrefaat127@gmail.com</b></span>
+              <span class="contact-arrow">↗</span>
+            </a>
+            <a href="https://wa.me/201558686633" class="contact-row" target="_blank" rel="noreferrer">
+              <span class="contact-icon contact-icon--wa"><svg class="social-svg social-svg--wa" viewBox="0 0 24 24" width="18" height="18" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg></span>
+              <span><small data-i18n="whatsappLabel">واتساب / هاتف</small><b>+20 155 868 6633</b></span>
+              <span class="contact-arrow">↗</span>
+            </a>
+            <a href="https://www.linkedin.com/in/abdelrahman-refaat-4b2001256/" class="contact-row" target="_blank" rel="noreferrer">
+              <span class="contact-icon contact-icon--in"><svg class="social-svg social-svg--in" viewBox="0 0 24 24" width="18" height="18" fill="currentColor"><path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z"/></svg></span>
+              <span><small>LinkedIn</small><b data-i18n="linkedinLabel">Abdelrahman Refaat</b></span>
+              <span class="contact-arrow">↗</span>
+            </a>
+            <a href="https://github.com/AbdelrahmanRefaat-72" class="contact-row" target="_blank" rel="noreferrer">
+              <span class="contact-icon contact-icon--gh"><svg class="social-svg social-svg--gh" viewBox="0 0 24 24" width="18" height="18" fill="currentColor"><path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"/></svg></span>
+              <span><small>GitHub</small><b>@AbdelrahmanRefaat-72</b></span>
+              <span class="contact-arrow">↗</span>
+            </a>
+          </div>
+        </div>
+        <div class="contact-end reveal"><span>CRAFTED WITH CARE &amp; CODE</span><span>ABDELRAHMAN REFAAT — 2026</span></div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <a class="footer-brand" href="#home" aria-label="Abdelrahman Refaat">
+        <span class="footer-avatar-box"><img src="assets/profile.jpg" alt="Abdelrahman Refaat" class="footer-avatar-img" /></span>
+        <span class="brand-name" data-i18n="brand">عبدالرحمن رفعت</span>
+      </a>
+      <p data-i18n="footerText">تصميم وبرمجة عبدالرحمن رفعت السيد — مطور برمجيات واختبار</p>
+      <a href="#home" class="back-top"><span data-i18n="backTop">الرجوع للأعلى</span><span>↑</span></a>
+    </footer>
+
+    <!-- PROJECT MODAL DIALOG -->
+    <dialog class="project-dialog" id="projectDialog" aria-labelledby="dialogTitle">
+      <button class="dialog-close" id="dialogClose" type="button" aria-label="Close project details">×</button>
+      <div class="dialog-art" id="dialogArt" aria-hidden="true"></div>
+      <div class="dialog-content">
+        <p class="dialog-kicker" id="dialogKicker"></p>
+        <h2 id="dialogTitle"></h2>
+        <p id="dialogDescription"></p>
+        <div class="dialog-tags" id="dialogTags"></div>
+        <div class="dialog-buttons">
+          <a class="button button--primary dialog-link" id="dialogLink" href="#" target="_blank" rel="noreferrer">
+            <span id="dialogLinkLabel" data-i18n="codeButton">فتح الكود على GitHub</span><span class="button-arrow">↗</span>
+          </a>
+        </div>
+      </div>
+    </dialog>
+
+    <!-- OTHER FIELDS DETAIL MODAL POPUP -->
+    <dialog class="field-dialog" id="fieldDialog" aria-labelledby="fieldDialogTitle">
+      <div class="field-dialog-header">
+        <span class="field-dialog-kicker" id="fieldDialogKicker">SPECIALIZED DOMAIN</span>
+        <h2 class="field-dialog-title" id="fieldDialogTitle"></h2>
+        <button class="field-dialog-close" id="fieldDialogClose" type="button" aria-label="Close modal">×</button>
+      </div>
+      <div class="field-dialog-body" id="fieldDialogBody"></div>
+    </dialog>
+
+    <!-- CERTIFICATE LIGHTBOX MODAL -->
+    <dialog class="cert-lightbox-dialog" id="certLightbox" aria-labelledby="certLightboxTitle">
+      <div class="cert-lightbox-inner">
+        <div class="cert-lightbox-bar">
+          <h3 class="cert-lightbox-title" id="certLightboxTitle" data-i18n="certLightboxTitle">معاينة الشهادة</h3>
+          <button class="cert-lightbox-close" id="certLightboxClose" type="button" aria-label="Close certificate lightbox">×</button>
+        </div>
+        <div class="cert-lightbox-content">
+          <img src="" alt="Certificate preview" class="cert-lightbox-img" id="certLightboxImg" />
+        </div>
+      </div>
+    </dialog>
+  </body>
+</html>
